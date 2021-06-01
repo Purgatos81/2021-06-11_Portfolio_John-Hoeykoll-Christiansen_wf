@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /*Nav styling*/
+
+.top-navigation {
+    background-color: #212121;
+}
+
+#hamburger-checkbox {
+    display: none;
+}
+
+.hamburger-label {
+    color: white;
+}
+
+.navelement {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
