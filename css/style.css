@@ -57,6 +57,8 @@ header {
     color: white;
 }
 
+
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -135,6 +137,29 @@ header {
         max-width: 300px;
         border-radius: 5px;
         border: 10px solid black;
+    }
+
+    .first-project-div {
+        display: grid;
+        grid-template-columns: 50px auto 50px;
+        grid-template-rows: auto auto;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .first-project-fig {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0;
+    }
+
+    .project-presentation-img1 {
+        width: 100%;
+    }
+
+    .first-project-text-div {
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
 
 }
