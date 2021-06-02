@@ -15,7 +15,7 @@ header {
 }
 
 .top-navigation {
-    background-color: #212121;
+    background-color: #262626;
 }
 
 #hamburger-checkbox {
@@ -38,7 +38,7 @@ header {
 /*Main styling*/
 
 .presentation-box {
-    background-color: #212121;
+    background-color: #262626;
 }
 
 .presentation-h1 {
@@ -96,15 +96,21 @@ header {
 
     .presentation-box {
         display: grid;
-        grid-template-columns: 10% auto 10% auto 10%;
+        grid-template-columns: auto 400px 200px 300px auto;
+        padding-top: 200px;
+        padding-bottom: 200px;
     }
 
     .presentation-text {
         grid-column: 2/3;
     }
 
+    .presentation-h1 {
+        font-size: 4rem;
+    }
+
     .presentation-p {
-        max-width: 200px;
+        font-size: 2rem;
     }
 
     .presentation-fig {
@@ -112,18 +118,22 @@ header {
     }
 
     .presentation-button-container {
-        background-color: teal;
-        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2B279;
+        width: 150px;
+        height: 50px;
         border-radius: 50px;
     }
 
     .presentation-button {
-        padding-left: 20px;
+        font-size: 1.5rem;
     }
 
     .presentation-img {
         max-width: 300px;
-
+        border-radius: 3px;
     }
 
 }
