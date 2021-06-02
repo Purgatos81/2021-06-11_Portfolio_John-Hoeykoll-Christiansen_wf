@@ -133,15 +133,151 @@ header {
 
     .presentation-img {
         max-width: 300px;
-        border-radius: 3px;
+        border-radius: 5px;
+        border: 10px solid black;
     }
 
 }
 
 @media only screen and (min-width:600px) and (max-width:990px) {
 
+    /*nav styling*/
+
+    .top-navigation {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px 30px 20px 20px;
+    }
+
+    .hamburger-label {
+        display: none;
+    }
+
+    .top-menu {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        color: darkgray;
+    }
+
+    /*Main styling*/
+
+    .presentation-box {
+        display: grid;
+        grid-template-columns: 10% auto 100px 30% 10%;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .presentation-text {
+        grid-column: 2/3;
+    }
+
+    .presentation-h1 {
+        font-size: 3rem;
+    }
+
+    .presentation-p {
+        font-size: 1.5rem;
+    }
+
+    .presentation-fig {
+        grid-column: 4/5;
+    }
+
+    .presentation-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2B279;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .presentation-button {
+        font-size: 1.5rem;
+    }
+
+    .presentation-img {
+        max-width: 100%;
+        border-radius: 3px;
+        border: 10px solid black;
+    }
 }
 
 @media only screen and (min-width:200px) and (max-width:599px) {
+
+    /*Nav styling*/
+
+    .top-navigation {
+        display: grid;
+        grid-template-columns: 50px auto 50px;
+        grid-row: auto auto;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .nav-logo {
+        grid-column: 1/2;
+        padding: 20px 0 20px 20px;
+    }
+
+    .hamburger-label {
+        grid-column: 3/4;
+        padding: 20px 50px 20px 0px;
+        font-size: 30px;
+    }
+
+    #hamburger-checkbox:checked ~ .top-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Main styling*/
+
+    .presentation-box {
+        display: grid;
+        grid-template-columns: 30px auto 30px;
+        grid-template-rows: auto auto;
+    }
+
+    .presentation-text {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        border-top: 2px solid grey;
+        margin-top: 20px;
+    }
+
+    .presentation-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2B279;
+        width: 120px;
+        height: 38px;
+        border-radius: 50px;
+        margin-bottom: 40px;
+    }
+
+    .presentation-button {
+        font-size: 1.1rem;
+    }
+
+    .presentation-fig {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .presentation-img {
+        max-width: 100%;
+        border-radius: 3px;
+        border: 10px solid black;
+    }
 
 }
