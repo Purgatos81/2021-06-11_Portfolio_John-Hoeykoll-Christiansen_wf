@@ -241,7 +241,7 @@ header {
     .top-navigation {
         display: grid;
         grid-template-columns: 50px auto 50px;
-        grid-row: auto auto;
+        grid-template-rows: auto auto;
     }
 
     .top-menu {
