@@ -30,6 +30,11 @@ header {
     list-style-type: none;
 }
 
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-link {
     color: white;
     text-decoration: none;
