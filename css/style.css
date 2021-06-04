@@ -233,6 +233,42 @@ a:visited {
         color: white;
     }
 
+    #carousel-button1, #carousel-button2, #carousel-button3, 
+    #carousel-button4,#carousel-button5,#carousel-button6{
+        color: black;
+        background: none;
+        padding: 0;
+        width: 15px;
+        font-size: 20px;
+    }
+
+    .container-right-2, .container-right-3, .container-left-2,
+    .container-left-3 {
+        display: none;
+    }
+
+    .carousel-container {
+        display: inline-block;
+    }
+
+    .carousel-container-2 {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .carousel-container-3 {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .carousel-head {
+        color: black;
+    }
+
     .footer-main {
         background-color: #262626;
     }
