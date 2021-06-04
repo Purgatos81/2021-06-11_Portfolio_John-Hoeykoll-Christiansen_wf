@@ -239,7 +239,9 @@ a:visited {
 
     .footer-container {
         display: grid;
-        grid-template-columns: auto 500px 150px 350px auto;
+        grid-template-columns: auto 500px 150px 250px auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .contact-me-contaier {
@@ -252,6 +254,7 @@ a:visited {
 
     .footer-p {
         color: white;
+        margin-bottom: 35px;
     }
 
     .footer-button {
@@ -263,22 +266,23 @@ a:visited {
 
     .footer-icon-container {
         grid-column: 4/5;
+        padding-top: 50px;
     }
 
-    #mail-icon {
-        color: #4f96d8;
+    .mail-icon-a, .facebook-icon-a, .linkedin-icon-a, .github-icon-a {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
     }
 
-    #facebook-icon {
-        color: #4f96d8;
+    #mail-icon, #facebook-icon, #linkedin-icon, #github-icon {
+        color: #F2B279;
     }
 
-    #linkedin-icon {
-        color: #4f96d8;
-    }
-
-    #github-icon {
-        color: #4f96d8;
+    .footer-icon-p {
+        margin: 0;
+        padding-left: 12px;
+        padding-bottom: 15px;
     }
 
     .copy-foot {
