@@ -35,7 +35,7 @@ async function getBlogs() {
                 <img class="carousel-img" src="${blogsImg[i]._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url}"
                 alt="${blogsImg[i]._embedded["wp:featuredmedia"][0].alt_text}">
                 <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>
-                <p id="blog-p"> ${blogs[i].excerpt.rendered}</p>  
+                <p id="blog-p" class="featured-blog-p"> ${blogs[i].excerpt.rendered}</p>  
             </a>
             </div>`
         }
