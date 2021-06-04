@@ -31,10 +31,11 @@ async function getBlogs() {
         for (let i = 0; i < 1; i++) {
             carouselResults.innerHTML += 
             `<div class"new-post-container">
-            <a class="carousel-a-link" href="blogdetails.html?id=${blogs[i].id}">
+            <a class="carousel-a-link" href="https://peaceful-minsky-cc69d6.netlify.app/blogdetails.html?id=1">
                 <img class="carousel-img" src="${blogsImg[i]._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url}"
                 alt="${blogsImg[i]._embedded["wp:featuredmedia"][0].alt_text}">
-                <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>  
+                <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>
+                <p id="blog-p"> ${blogs[i].excerpt.rendered}</p>  
             </a>
             </div>`
         }
@@ -42,9 +43,10 @@ async function getBlogs() {
         for (let i = 1; i < 2; i++) {
             carouselResults2.innerHTML += 
             `<div class"new-post-container">
-            <a class="carousel-a-link" href="blogdetails.html?id=${blogs[i].id}">
+            <a class="carousel-a-link" href="https://peaceful-minsky-cc69d6.netlify.app/blogdetails.html?id=106">
                 <img class="carousel-img" src="${blogsImg[i]._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url}">
-                <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>  
+                <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>
+                <p id="blog-p"> ${blogs[i].excerpt.rendered}</p>   
             </a>
             </div>`
         }
@@ -52,9 +54,10 @@ async function getBlogs() {
         for (let i = 2; i < 3; i++) {
             carouselResults3.innerHTML += 
             `<div class"new-post-container">
-            <a class="carousel-a-link" href="blogdetails.html?id=${blogs[i].id}">
+            <a class="carousel-a-link" href="https://peaceful-minsky-cc69d6.netlify.app/blogdetails.html?id=144">
                 <img class="carousel-img" src="${blogsImg[i]._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url}">
-                <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>  
+                <h3 class="carousel-head"> ${blogs[i].title.rendered}</h3>
+                <p id="blog-p"> ${blogs[i].excerpt.rendered}</p>   
             </a>
             </div>`
         }
