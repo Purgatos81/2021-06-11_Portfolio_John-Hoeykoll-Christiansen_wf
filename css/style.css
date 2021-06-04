@@ -527,4 +527,43 @@ a:visited {
         border: 10px solid black;
     }
 
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .featured-projects-h2 {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .first-project-fig, .second-project-fig, .third-project-fig {
+        background-color: #dbdbdb;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .project-presentation-img1 {
+        width: 100%;
+        margin-bottom: -50px;
+        box-shadow: 2px 2px 50px grey, -2px -2px 10px grey;
+        border-radius: 3px;
+    }
+
+    .first-project-text-div {
+        margin-top: 50px;
+    }
+
+    .first-project-button-container {
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+
+    .first-project-button {
+        background-color: #4f96d8;
+        padding: 10px 15px;
+        text-align: center;
+        border-radius: 50px;
+    }
+
 }
