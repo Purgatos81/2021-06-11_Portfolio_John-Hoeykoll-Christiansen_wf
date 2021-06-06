@@ -550,6 +550,11 @@ a:visited {
         margin-right: 15px;
     }
 
+    .project-develpment-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
 }
 
 @media only screen and (min-width:600px) and (max-width:990px) {
