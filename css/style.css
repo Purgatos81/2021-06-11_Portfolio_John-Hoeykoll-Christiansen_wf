@@ -445,6 +445,10 @@ a:visited {
         grid-column: 1/2;
     }
 
+    .who-section-p {
+        max-width: 500px;
+    }
+
     .who-section-profile-img-container {
         grid-column: 2/3;
     }
