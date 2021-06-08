@@ -2,6 +2,24 @@
     box-sizing: border-box;
   }
 
+h1 {
+    /* font-family: "Rubic", "Arial", "sans-serif"; */
+    font-family: "Kanit", "Arial", "sans-serif";
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Rubik", "Arial", "sans-serif";
+}
+
+h3 {
+    font-family: "Rubik", "Arial", "sans-serif";
+}
+
+p {
+    font-family: "Rubik", "Arial", "sans-serif";
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -33,16 +51,19 @@ header {
 a:link {
     text-decoration: none;
     color: white;
+    font-family: "Rubik", "Arial", "sans-serif";
 }
 
 a:visited {
     text-decoration: none;
     color: white;
+    font-family: "Rubik", "Arial", "sans-serif";
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
+    font-family: "Rubik", "Arial", "sans-serif";
 }
 
 /*Main styling*/
