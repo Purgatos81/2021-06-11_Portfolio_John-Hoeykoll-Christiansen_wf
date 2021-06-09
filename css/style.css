@@ -66,6 +66,15 @@ a:visited {
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
+.nav-link:hover {
+    border-bottom: gray solid 2px;
+}
+
+#nav-active {
+    font-weight: bold;
+    border-bottom: solid white 2px;
+}
+
 /*Main styling*/
 
 .presentation-box {
@@ -432,10 +441,12 @@ a:visited {
     
     .about-banner-h1 {
         color: white;
+        font-size: 2.5rem;
     }
     
     .about-banner-p {
         color: white;
+        padding-bottom: 30px;
     }
     
     .short-info-div {
@@ -1125,7 +1136,20 @@ a:visited {
         flex-direction: column;
     }
 
+    .navelement {
+        padding-bottom: 15px;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+    }
+
     /*Main styling*/
+
+    .project-presentation-banner {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
     .presentation-box {
         display: grid;
@@ -1136,7 +1160,6 @@ a:visited {
     .presentation-text {
         grid-column: 2/3;
         grid-row: 1/2;
-        border-top: 2px solid grey;
         margin-top: 20px;
     }
 
