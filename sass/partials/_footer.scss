@@ -1,0 +1,211 @@
+@use 'variables';
+
+@media only screen and (min-width:991px) {
+
+    .footer-main {
+        background-color: #262626;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto 500px 150px 250px auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-me-contaier {
+        grid-column: 2/3;
+    }
+
+    .footer-h2 {
+        color: white;
+    }
+
+    .footer-p {
+        color: white;
+        margin-bottom: 35px;
+    }
+
+    .footer-button {
+            font-size: 1.5rem;
+            background-color: #F2B279;
+            padding: 10px 20px;
+            border-radius: 50px;
+    }
+
+    .footer-button:hover {
+        background-color: #262626;
+        border: white solid 2px;
+    }
+
+    .footer-icon-container {
+        grid-column: 4/5;
+        padding-top: 50px;
+    }
+
+    .mail-icon-a, .facebook-icon-a, .linkedin-icon-a, .github-icon-a {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #mail-icon, #facebook-icon, #linkedin-icon, #github-icon {
+        color: #F2B279;
+    }
+
+    .footer-icon-p {
+        margin: 0;
+        padding-left: 12px;
+        padding-bottom: 15px;
+    }
+
+    .copy-foot {
+        color: darkgray;
+        border-top: 1px solid gray;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+
+    .footer-main {
+        background-color: #262626;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto 300px auto 150px auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-me-contaier {
+        grid-column: 2/3;
+    }
+
+    .footer-h2 {
+        color: white;
+    }
+
+    .footer-p {
+        color: white;
+        margin-bottom: 35px;
+    }
+
+    .footer-button {
+            font-size: 1.5rem;
+            background-color: #F2B279;
+            padding: 10px 20px;
+            border-radius: 50px;
+    }
+    
+    .footer-button:hover {
+        background-color: #262626;
+        border: white solid 2px;
+    }
+
+
+    .footer-icon-container {
+        grid-column: 4/5;
+        padding-top: 50px;
+    }
+
+    .mail-icon-a, .facebook-icon-a, .linkedin-icon-a, .github-icon-a {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #mail-icon, #facebook-icon, #linkedin-icon, #github-icon {
+        color: #F2B279;
+    }
+
+    .footer-icon-p {
+        margin: 0;
+        padding-left: 12px;
+        padding-bottom: 15px;
+    }
+
+    .copy-foot {
+        color: darkgray;
+        border-top: 1px solid gray;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+
+    .footer-main {
+        background-color: #262626;
+    }
+
+    
+    .footer-container {
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+        grid-template-rows: auto auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-me-contaier {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .footer-h2 {
+        color: white;
+    }
+
+    .footer-p {
+        color: white;
+        margin-bottom: 35px;
+    }
+
+    .footer-button {
+            font-size: 1.5rem;
+            background-color: #F2B279;
+            padding: 10px 20px;
+            border-radius: 50px;
+    }
+
+    
+    .footer-button:hover {
+        background-color: #262626;
+        border: white solid 2px;
+    }
+
+
+    .footer-icon-container {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-top: 50px;
+    }
+
+    .mail-icon-a, .facebook-icon-a, .linkedin-icon-a, .github-icon-a {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #mail-icon, #facebook-icon, #linkedin-icon, #github-icon {
+        color: #F2B279;
+    }
+
+    .footer-icon-p {
+        margin: 0;
+        padding-left: 12px;
+        padding-bottom: 15px;
+    }
+
+    .copy-foot {
+        color: darkgray;
+        border-top: 1px solid gray;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+}

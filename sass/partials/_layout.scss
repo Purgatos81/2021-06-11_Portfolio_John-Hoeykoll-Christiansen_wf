@@ -1,0 +1,36 @@
+@use 'variables';
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: variables.$primary-font;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: variables.$seconday-font;
+}
+
+h3 {
+    font-family: variables.$seconday-font;
+}
+
+p {
+    font-family: variables.$seconday-font;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,121 @@
+@use 'variables';
+
+.presentation-box {
+    background-color: #262626;
+}
+
+.presentation-h1 {
+    color: white;
+}
+
+.presentation-p {
+    color: white;
+}
+
+.presentation-button {
+    text-decoration: none;
+}
+   
+.presentation-button:hover {
+    background-color: #262626;
+    border: white solid 2px;
+}
+
+.presentation-button:visited {
+    color: white;
+}
+
+@media only screen and (min-width:991px) {
+
+    .presentation-box {
+        display: grid;
+        grid-template-columns: auto 400px 200px 300px auto;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .presentation-text {
+        grid-column: 2/3;
+    }
+
+    .presentation-h1 {
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    .presentation-p {
+        font-size: 1.5rem;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .presentation-fig {
+        grid-column: 4/5;
+    }
+
+    .presentation-button {
+        font-size: 1.5rem;
+        background-color: #F2B279;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+
+    .presentation-img {
+        max-width: 300px;
+        border-radius: 5px;
+        border: 10px solid black;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+
+    .presentation-box {
+        display: grid;
+        grid-template-columns: 10% auto 20px auto 10%;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .presentation-text {
+        grid-column: 2/3;
+    }
+
+    .presentation-h1 {
+        font-size: 3rem;
+    }
+
+    .presentation-p {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    .presentation-fig {
+        grid-column: 4/5;
+        margin: 0;
+    }
+
+    .presentation-button-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .presentation-button {
+        font-size: 1.5rem;
+        background-color: #F2B279;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+
+    .presentation-img {
+        max-width: 100%;
+        border-radius: 3px;
+        border: 10px solid black;
+    }
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+
+    
+}

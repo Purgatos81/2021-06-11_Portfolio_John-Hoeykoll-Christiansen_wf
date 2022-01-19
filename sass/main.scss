@@ -1,0 +1,17 @@
+@use 'partials/variables';
+@use 'partials/nav';
+@use 'partials/layout';
+@use 'partials/bannermain';
+@use 'partials/projects';
+@use 'partials/footer';
+@use 'partials/project';
+@use 'partials/about';
+
+.about-github-button, .about-linkedin-button {
+  border: #4f96d8 solid 2px;
+}
+
+.about-github-button:hover, .about-linkedin-button:hover {
+  background-color: white;
+  color: #4f96d8;
+}

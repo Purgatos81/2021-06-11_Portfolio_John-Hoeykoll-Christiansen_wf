@@ -1,0 +1,248 @@
+@use 'variables';
+
+@media only screen and (min-width:991px) {
+
+    .about-banner {
+        background-color: #262626;
+        padding-bottom: 1px;
+        padding-left: 20%;
+        padding-right: 20%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    
+    .about-banner-h1 {
+        color: white;
+        font-size: 2.5rem;
+    }
+    
+    .about-banner-p {
+        color: white;
+        padding-bottom: 30px;
+    }
+    
+    .short-info-div {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .banner-asside-p {
+        color: white;
+        margin: 0;
+    }
+    
+
+    .who-section {
+        margin: 50px 20%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .who-div-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .who-div-text-container {
+        grid-column: 1/2;
+    }
+
+    .who-section-p {
+        max-width: 500px;
+    }
+
+    .who-section-profile-img-container {
+        grid-column: 2/3;
+    }
+
+    .cv-profil-img {
+        width: 100%;
+        border-radius: 50%;
+        transform: scaleX(-1);
+    }
+
+    .workexp-div-container {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .workexp-div-text-conainer, .workexp-div-text-conainer-2 {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: auto auto;
+    }
+
+    .workdate-p {
+        grid-column: 1/2;
+    }
+
+    .workexp-h3 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .workexp-p {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .about-aside {
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+
+    .about-button-container {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .about-github-button, .about-linkedin-button {
+        background-color: #4f96d8;
+        padding: 8px 15px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        width: 145px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+
+    .about-banner {
+        background-color: #262626;
+        padding-bottom: 1px;
+        padding-left: 20%;
+        padding-right: 20%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    
+    .about-banner-h1 {
+        color: white;
+    }
+    
+    .about-banner-p {
+        color: white;
+    }
+    
+    .short-info-div {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .banner-asside-p {
+        color: white;
+        margin: 0;
+    }
+    
+
+    .who-section {
+        margin: 50px 20%;
+    }
+
+    .who-section-profile-img-container {
+        margin: 0;
+    }
+
+    .cv-profil-img {
+        width: 100%;
+    }
+
+    .about-button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-github-button {
+        background-color: #4f96d8;
+        padding: 5px 10px;
+        border-radius: 50px;
+        width: 140px;
+        text-align: center;
+    }
+
+    .about-linkedin-button {
+        background-color: #4f96d8;
+        padding: 6px 12px;
+        border-radius: 50px;
+        width: 140px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+
+    .about-banner {
+        background-color: #262626;
+        padding-bottom: 1px;
+        padding-left: 20%;
+        padding-right: 20%;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    
+    .about-banner-h1 {
+        color: white;
+        font-size: 1.25rem;
+    }
+    
+    .about-banner-p {
+        color: white;
+    }
+    
+    .short-info-div {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .banner-asside-p {
+        color: white;
+        margin: 0;
+    }
+    
+
+    .who-section {
+        margin: 50px 20%;
+    }
+
+    .who-section-profile-img-container {
+        margin: 0;
+    }
+
+    .cv-profil-img {
+        width: 100%;
+    }
+
+    .about-button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-github-button {
+        background-color: #4f96d8;
+        padding: 6px 12px;
+        border-radius: 50px;
+        width: 130px;
+        text-align: center;
+        margin-right: 5px;
+        font-size: 1.2rem;
+    }
+
+    .about-linkedin-button {
+        background-color: #4f96d8;
+        padding: 6px 12px;
+        border-radius: 50px;
+        width: 130px;
+        text-align: center;
+        font-size: 1.2rem;
+    }   
+    
+}

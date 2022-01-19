@@ -1,0 +1,308 @@
+@use 'variables';
+
+.project-presentation-banner {
+    background-color: #262626;
+}
+
+.project-presentation-banner-h1 {
+    color: white;
+}
+
+.project-presentation-banner-p {
+    color: lightgray;
+    margin-bottom: 0;
+}
+
+.loading {
+    border: 5px solid gray;
+    border-top: 5px solid darkgray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; 
+}
+
+.project-presentation-button {
+    border: solid #4f96d8 2px;
+}
+
+.project-presentation-button:hover {
+    background-color: white;
+    color: #4f96d8;
+}
+
+@media only screen and (min-width:991px) {
+
+    .project-presentation-banner {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .project-presentation-banner-h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+
+    .project-presentation-banner-p {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .project-presentation-container {
+        margin: 150px 15%;
+    }
+
+    .presentation-head-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .project-presentation-fig {
+        background-color: #dbdbdb;
+        padding: 30px;
+        border-radius: 3px;
+        margin: 0 50px 0 0;
+    }
+
+    .project-presentation-img {
+        width: 100%;
+        margin-bottom: -50px;
+        box-shadow: 2px 2px 50px grey, -2px -2px 10px grey;
+        border-radius: 3px;
+    }
+
+    .project-presentation-button-container {
+        display: flex;
+    }
+
+    .project-presentation-button {
+        background-color: #4f96d8;
+        padding: 5px 10px;
+        border-radius: 50px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .project-develpment-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .project-develpment-text-container {
+        margin: 50px 50px 0 0;
+    }
+
+    .project-develpment-img-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        margin-top: 50px;
+    }
+
+    .project-develpment-img-container-x {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        margin-top: 50px;
+    }
+
+    .project-develpment-img-h2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .project-develpment-fig {
+        margin: 0 30px 30px 0;
+        grid-column: 1/3;
+    }
+
+
+    .project-develpment-fig-x {
+        margin: 0 0px 0px 0;
+    }
+
+    .project-develpment-img {
+        width: 80%;
+        box-shadow: 10px 10px 10px gray;
+        border-radius: 3px;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+
+    .project-presentation-banner {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .project-presentation-banner-h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+
+    .project-presentation-banner-p {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .project-presentation-container {
+        margin: 150px 15%;
+    }
+
+    .presentation-head-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project-presentation-fig {
+        background-color: #dbdbdb;
+        padding: 30px;
+        border-radius: 3px;
+        margin: 0 50px 0 0;
+    }
+
+    .project-presentation-img {
+        width: 100%;
+        margin-bottom: -50px;
+        box-shadow: 2px 2px 50px grey, -2px -2px 10px grey;
+        border-radius: 3px;
+    }
+
+    .project-presentation-button-container {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .project-presentation-button {
+        background-color: #4f96d8;
+        padding: 5px 10px;
+        border-radius: 50px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .project-develpment-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .project-develpment-text-container {
+        margin: 50px 50px 0 0;
+    }
+
+    .project-develpment-img-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        margin-top: 50px;
+    }
+
+    .project-develpment-img-h2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .project-develpment-fig {
+        margin: 0 30px 30px 0;
+        grid-column: 1/3;
+    }
+
+    .project-develpment-img {
+        width: 80%;
+        box-shadow: 10px 10px 10px gray;
+        border-radius: 3px;
+    }
+    
+}
+
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+
+    .project-presentation-banner {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .project-presentation-banner-h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+
+    .project-presentation-banner-p {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .project-presentation-container {
+        margin: 150px 15%;
+    }
+
+    .presentation-head-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project-presentation-fig {
+        background-color: #dbdbdb;
+        padding: 30px;
+        border-radius: 3px;
+        margin: 0 50px 0 0;
+    }
+
+    .project-presentation-img {
+        width: 100%;
+        margin-bottom: -50px;
+        box-shadow: 2px 2px 50px grey, -2px -2px 10px grey;
+        border-radius: 3px;
+    }
+
+    .project-presentation-button-container {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .project-presentation-button {
+        background-color: #4f96d8;
+        padding: 5px 10px;
+        border-radius: 50px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .project-develpment-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-develpment-text-container {
+        margin: 50px 50px 0 0;
+    }
+
+    .project-develpment-img-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        margin-top: 50px;
+    }
+
+    .project-develpment-img-h2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .project-develpment-fig {
+        margin: 0 30px 30px 0;
+        grid-column: 1/3;
+    }
+
+    .project-develpment-img {
+        width: 80%;
+        box-shadow: 10px 10px 10px gray;
+        border-radius: 3px;
+    }
+    
+}

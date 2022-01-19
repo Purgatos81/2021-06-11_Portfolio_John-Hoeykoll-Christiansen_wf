@@ -1,0 +1,140 @@
+@use 'variables';
+
+header {
+    margin-bottom: -22px;
+}
+
+.top-navigation {
+    background-color: #262626;
+}
+
+#hamburger-checkbox {
+    display: none;
+}
+
+.hamburger-label {
+    color: white;
+}
+
+.navelement {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", "Arial", "sans-serif";
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", "Arial", "sans-serif";
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik", "Arial", "sans-serif";
+}
+
+.nav-link:hover {
+    border-bottom: gray solid 2px;
+}
+
+#nav-active {
+    font-weight: bold;
+    border-bottom: solid white 2px;
+}
+
+@media only screen and (min-width:991px) {
+
+    .top-navigation {
+        display: grid;
+        grid-template-columns: 1fr 4fr 2fr;
+        padding: 20px 10% 20px 10%;
+        padding-top: 80px;
+    }
+
+    .hamburger-label {
+        display: none;
+    }
+
+    .top-menu {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        color: darkgray;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+    .top-navigation {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px 30px 20px 20px;
+    }
+
+    .hamburger-label {
+        display: none;
+    }
+
+    .top-menu {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        color: darkgray;
+    }
+
+}
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+    
+    .top-navigation {
+        display: grid;
+        grid-template-columns: 50px auto 50px;
+        grid-template-rows: auto auto;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .nav-logo {
+        grid-column: 1/2;
+        padding: 20px 0 20px 20px;
+    }
+
+    .hamburger-label {
+        grid-column: 3/4;
+        padding: 20px 50px 20px 0px;
+        font-size: 30px;
+    }
+
+    #hamburger-checkbox:checked ~ .top-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navelement {
+        padding-bottom: 15px;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+    }
+
+
+}
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+
+
+    
+}
