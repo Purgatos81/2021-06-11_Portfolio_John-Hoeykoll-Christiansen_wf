@@ -391,57 +391,6 @@
 
 @media only screen and (min-width:200px) and (max-width:599px) {
 
-    .project-presentation-banner {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    .presentation-box {
-        display: grid;
-        grid-template-columns: 30px auto 30px;
-        grid-template-rows: auto auto;
-    }
-
-    .presentation-text {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        margin-top: 20px;
-    }
-
-    .presentation-h1 {
-        margin-bottom: 0;
-    }
-
-    .presentation-p {
-        margin-top: 10px;
-        margin-bottom: 25px;
-    }
-
-    .presentation-button-container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        border-radius: 50px;
-        margin-bottom: 40px;
-    }
-
-    .presentation-button {
-        font-size: 1.1rem;
-        background-color: #F2B279;
-        padding: 10px 20px;
-        border-radius: 50px;
-    }
-
-    .presentation-fig {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-
-    .presentation-img {
-        max-width: 100%;
-        border-radius: 3px;
-        border: 10px solid black;
-    }
 
     .featured-projects-h2 {
         padding-top: 40px;
