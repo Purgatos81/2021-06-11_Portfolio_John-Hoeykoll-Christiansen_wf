@@ -185,7 +185,7 @@ p {
 @media only screen and (min-width: 991px) {
   .presentation-box {
     display: grid;
-    grid-template-columns: auto 400px 200px 300px auto;
+    grid-template-columns: 20% 400px auto auto 10%;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -217,7 +217,7 @@ p {
   }
 
   .presentation-img {
-    width: 100%;
+    max-width: 300px;
     border-radius: 50%;
   }
 }
